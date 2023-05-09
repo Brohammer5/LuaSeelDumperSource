@@ -1,9 +1,11 @@
 # Luaseel Dump
 ## How to deobsfucate Lua Seel
+### Steps
+1. 
+### Example
 This is a example code of obsfucated
 ```lua
 --// Obfuscated with LuaSeel 1.1 
---// Obfuscated with LuaSeel 1.1
 
 function IllIlllIllIlllIlllIlllIll(IllIlllIllIllIll)
     if (IllIlllIllIllIll == (((((919 + 636) - 636) * 3147) / 3147) + 919)) then
@@ -119,5 +121,3 @@ local IlIlIlIlIlIlIlIlII = {
 IllIIllIIllIII(IllIIIllIIIIllI(IlIlIlIlIlIlIlIlII, IIIIIIIIllllllllIIIIIIII))()
 
 ```
-### Steps
-1. Take
