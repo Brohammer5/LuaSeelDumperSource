@@ -1,9 +1,20 @@
 # Luaseel Dump
 ## How to deobsfucate Lua Seel
 ### Steps
-1. 
+1. Find the line that contains local IlIlIlIlIlIlIlIlII = {} or is near 35 with a table
+2. Extract the table from the function and delete the rest of the code
+3.  Paste this
+   ```lua
+    for k, v in ipairs(IlIlIlIlIlIlIlIlII) do
+    --[[file = io.open("output.lua","w+")
+    file:write(v)
+    file:close() --]] -- For Files
+     io.write(v) -- nicer printing of v
+   print(v) -- prints v
+end
+```
 ### Example
-This is a example code of obsfucated
+This is an example code of obfuscated
 ```lua
 --// Obfuscated with LuaSeel 1.1 
 
